@@ -1,0 +1,105 @@
+Button{
+  color: rgb(0, 38, 255);
+ }
+ 
+ .qlink{
+   /* display: flex;
+   flex-direction: column-reverse;
+   justify-content: space-between; */
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 150px;
+   gap: 2em;
+   margin-top: 500px;
+   margin-left: 1000px;
+   position:static;
+  
+ }
+ 
+ .login{
+    display: flex;
+   flex-direction: column;
+   width: 120px;
+   /* position: absolute; */
+   margin-left: 850px;
+   margin-top: 250px; 
+   width: 200px;
+   height: 200px;
+ }
+ 
+ .pass{
+   margin-top: 13px;
+   font-size: larger;
+ }
+ .hope{
+   color: rgba(192, 192, 36, 0.918);
+   width: 120px;
+   font-size: larger;
+ }
+ .health{
+   color: red;
+   width: 120px;
+   font-size: larger;
+ }
+ .loc{
+   color: gray;
+   width: 120px;
+   font-size: larger;
+ }
+ .staff{
+   color: blue;
+   width: 120px;
+   font-size: larger;
+ }
+ .train{
+   color: green;
+   width: 120px;
+   font-size: larger;
+ }
+ .comm{
+   color: black;
+   width: 120px;
+   font-size: larger;
+ }
+ 
+ .head{
+ background-color: gray;
+ border: solid 1px;
+ width: 800px;
+ height: 100px;
+ margin-left: 800px;
+ text-align: center;
+ vertical-align: middle;
+ line-height: 90px;
+ font-size: 300%;
+ position: static;
+ }
+ 
+ .co{
+   width: 400px;
+   height: 50px;
+   font-size: 13pt;
+   margin-left: 1000px;
+   text-align: center;
+   border: solid purple;
+   border-radius: 40px;
+ }
+ 
+ .pro{
+   border: 3px solid;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 200px;
+   font-size: 25pt;
+   margin-left: 300px;
+ 
+ }
+ .bio{
+   overflow-wrap: break-word;
+   inline-size: 400px;
+   margin-left: 550px;
+   margin-top: -200px;
+ }
