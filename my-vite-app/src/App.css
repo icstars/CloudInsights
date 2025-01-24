@@ -1,32 +1,28 @@
+
+the style of all buttons on the page
 Button{
   color: rgb(0, 38, 255);
  }
  
+ /* This is group together within a div, if you edit this it will make 
+ changes to all the icons  */
  .qlink{
    /* display: flex;
    flex-direction: column-reverse;
    justify-content: space-between; */
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   grid-template-columns: repeat(3, 1fr);
    width: 150px;
    gap: 2em;
    margin-top: 500px;
-   margin-left: 1000px;
+   margin-left: 800px;
    position:static;
   
  }
  
- .login{
-    display: flex;
-   flex-direction: column;
-   width: 120px;
-   /* position: absolute; */
-   margin-left: 850px;
-   margin-top: 250px; 
-   width: 200px;
-   height: 200px;
- }
  
+ /* These are the start of each icon classes so if you need to make changes to 
+ only one then you can do so, look out for text below so you know where it ends */
  .pass{
    margin-top: 13px;
    font-size: larger;
@@ -60,14 +56,18 @@ Button{
    color: black;
    width: 120px;
    font-size: larger;
+
+   /* the icons for each quick link ends here */
  }
  
+ /* start of the page with the logo, please don't touch this part
+ it was hard to center this. unless you can make it better don't touch */
  .head{
  background-color: gray;
  border: solid 1px;
  width: 800px;
  height: 100px;
- margin-left: 800px;
+ margin-left: 300px;
  text-align: center;
  vertical-align: middle;
  line-height: 90px;
@@ -75,16 +75,18 @@ Button{
  position: static;
  }
  
+ /* the searchbar for the chatbot the iframe will need to be added in html still */
  .co{
    width: 400px;
    height: 50px;
    font-size: 13pt;
-   margin-left: 1000px;
+   margin-left: 450px;
    text-align: center;
    border: solid purple;
    border-radius: 40px;
  }
  
+ /* this is the actual pfp icon circle */
  .pro{
    border: 3px solid;
    width: 200px;
@@ -95,11 +97,20 @@ Button{
    line-height: 200px;
    font-size: 25pt;
    margin-left: 300px;
+   
  
  }
+
+ /* the text/bio  */
  .bio{
    overflow-wrap: break-word;
    inline-size: 400px;
    margin-left: 550px;
    margin-top: -200px;
  }
+
+ /* This controls the hamburger menu */
+ .menu{
+  margin-top: -1100px;
+  font-size: 50pt;
+}

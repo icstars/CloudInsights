@@ -3,6 +3,7 @@ import Button from './Components/Button'
 import Header from './Components/Header'
 import Search from './Components/Search'
 import Profile from './Components/Profile'
+import Menu from './components/Menu'
 function App() {
 
   return (
@@ -14,7 +15,9 @@ function App() {
     <Search />
     <Profile />
     <Button />
-   
+    <Menu />
+    
+  
     
     
 
