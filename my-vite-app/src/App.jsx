@@ -4,25 +4,29 @@ import Header from './Components/Header'
 import Search from './Components/Search'
 import Profile from './Components/Profile'
 import Menu from './components/Menu'
+import Footer from './components/Footer'
+
+
 function App() {
 
   return (
     <>
-   <div>
+   
      {/* <p className='box1'>Box mode l </p>
     <p className='box2'>Box mode 2 </p>  */}
     <Header />
+    <Menu />
     <Search />
     <Profile />
     <Button />
-    <Menu />
-    
+    <Footer />
+  
   
     
     
 
 
-   </div>
+   
   </>
   )
 // --------------------------------------------------------------------

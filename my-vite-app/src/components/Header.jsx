@@ -1,12 +1,15 @@
+import Threshome from './images/ThreshomeLogo.png'
+
 function Header(){
   return(
-      <div>
-           <p className="head">ThresHome Logo</p>
+      <>
+           <p className="head"></p>
+           <img src={Threshome} alt="The official Threshome logo" className='thres' />
       
       
       
   
-  </div>
+  </>
   )
 }
 export default Header

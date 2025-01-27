@@ -76,3 +76,8 @@ button:focus-visible {
   margin-left: 400px
   ;
 } */
+
+body{
+  background-color: #7c45a5;
+  margin: 0;
+}
