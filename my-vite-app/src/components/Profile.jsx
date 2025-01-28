@@ -1,10 +1,10 @@
-
+import Pfp from "./images/Lily.png"
 
 function Profile(){
     return(
         <>
         
-            
+            <img src={Pfp} alt="Lily"className="lily" />
             <p className="pro"></p>
             
             <p className="bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

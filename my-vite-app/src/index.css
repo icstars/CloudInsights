@@ -78,6 +78,7 @@ button:focus-visible {
 } */
 
 body{
-  background-color: #7c45a5;
+  /* background-color: #7c45a5; */
   margin: 0;
+  background-image: url(pageback.jpg);
 }

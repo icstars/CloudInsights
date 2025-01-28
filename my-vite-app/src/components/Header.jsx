@@ -5,6 +5,7 @@ function Header(){
       <>
            <p className="head"></p>
            <img src={Threshome} alt="The official Threshome logo" className='thres' />
+           
       
       
       
