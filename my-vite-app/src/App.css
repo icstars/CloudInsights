@@ -1,32 +1,36 @@
+
+the style of all buttons on the page
 Button{
   color: rgb(0, 38, 255);
  }
  
+ /* This is group together within a div, if you edit this it will make 
+ changes to all the icons  */
  .qlink{
    /* display: flex;
    flex-direction: column-reverse;
    justify-content: space-between; */
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   width: 150px;
-   gap: 2em;
-   margin-top: 500px;
-   margin-left: 1000px;
+     display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+    width: 150px; 
+   gap: 3.5em;
+   margin-top: 300px;
+   margin-left: 300px;
    position:static;
+   
   
  }
  
- .login{
-    display: flex;
-   flex-direction: column;
-   width: 120px;
-   /* position: absolute; */
-   margin-left: 850px;
-   margin-top: 250px; 
-   width: 200px;
-   height: 200px;
- }
+/* .qlink:hover {
+transform: all 1s;
+
+} */
+
+
+
  
+ /* These are the start of each icon classes so if you need to make changes to 
+ only one then you can do so, look out for text below so you know where it ends */
  .pass{
    margin-top: 13px;
    font-size: larger;
@@ -36,15 +40,26 @@ Button{
    width: 120px;
    font-size: larger;
  }
+
+ .hope:hover{
+  background-color: red;
+  transform: scale(1.5s);
+}
  .health{
    color: red;
    width: 120px;
    font-size: larger;
+  
  }
+
  .loc{
    color: gray;
    width: 120px;
    font-size: larger;
+ }
+
+ .loc:hover{
+  background-color: green;
  }
  .staff{
    color: blue;
@@ -60,33 +75,47 @@ Button{
    color: black;
    width: 120px;
    font-size: larger;
+
+   /* the icons for each quick link ends here */
  }
  
+ /* start of the page with the logo, please don't touch this part
+ it was hard to center this. unless you can make it better don't touch */
  .head{
- background-color: gray;
+ background-color: white;
  border: solid 1px;
  width: 800px;
  height: 100px;
- margin-left: 800px;
+ margin-left: 300px;
  text-align: center;
  vertical-align: middle;
  line-height: 90px;
  font-size: 300%;
  position: static;
- }
+ margin-top: 75px;
+}
+
+
  
+ /* the searchbar for the chatbot the iframe will need to be added in html still */
  .co{
-   width: 400px;
+   width: 500px;
    height: 50px;
    font-size: 13pt;
-   margin-left: 1000px;
+   margin-left: 425px;
    text-align: center;
    border: solid purple;
    border-radius: 40px;
- }
+   position: relative;
+   bottom: 200px;
+   border-color: #00adee;
  
+ 
+  }
+ 
+ /* this is the actual pfp icon circle */
  .pro{
-   border: 3px solid;
+   border: 4px solid yellow;
    width: 200px;
    height: 200px;
    border-radius: 50%;
@@ -95,11 +124,453 @@ Button{
    line-height: 200px;
    font-size: 25pt;
    margin-left: 300px;
+   
  
  }
+/* The picture */
+.lily{
+  width: 202px;
+  height: 202px;
+  margin-left: 302px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 35px;
+  
+  
+
+}
+
+ /* the text/bio  */
  .bio{
    overflow-wrap: break-word;
    inline-size: 400px;
    margin-left: 550px;
-   margin-top: -200px;
+   margin-top: -50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20pt;
+   
  }
+
+.biotext{
+font-size: 15pt;
+}
+.title{
+  overflow-wrap: break-word;
+  inline-size: 400px;
+  margin-left: -50px;
+  margin-top: -200px;
+ font-weight: bold;
+}
+
+
+ /* This controls the hamburger menu */
+ .menu{
+  
+  font-size: 40pt;
+  bottom: 400px;
+  position: fixed;
+  background-color: #00adee;
+  
+}
+
+.footertext{
+  display: flex;
+  order: 4;
+  gap: 15pt;
+  color: #00adee;
+  position: relative;
+  top: 130px;
+  font-size: 15pt;
+  color: black;
+
+}
+
+
+
+.foot{
+  border: solid 1px;
+  height: 120px;
+  background: white;
+  color: white;
+
+  
+}
+
+a, .social{
+  color: #7c45a5;
+  
+}
+a, .footertext{
+  color: black;
+
+  
+}
+.social{
+display: flex; 
+order: 4;
+gap: 28pt;
+font-size: 15pt;
+position: relative;
+top: 150px;
+margin-left: 20px;
+
+}
+
+/* The logo  */
+.thres{
+width: 750px;
+position: relative;
+bottom: 220px;
+left: 300px;
+
+}
+
+.dropdown-menu{
+  color: white;
+  border: solid 1px;
+  background-color: gray;
+  height: 180px;
+  width: 150px;
+  position: fixed;
+  bottom: 100px;
+  vertical-align: middle;
+  line-height: 50px;
+  
+}
+/* all the link tags */
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is the health */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+
+}
+ 
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+ 
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+ 
+.button-64:hover span {
+  background: none;
+}
+ 
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+/* The end of 64 */
+
+/* hope */
+.button-65 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-65:active,
+.button-65:hover {
+  outline: 0;
+}
+
+.button-65 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-65:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-65 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* the end of 65 */
+
+/* loc */
+.button-66 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-66:active,
+.button-66:hover {
+  outline: 0;
+}
+
+.button-66 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-66:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* end of 66 */
+
+
+/* staff */
+.button-67 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-67:active,
+.button-67:hover {
+  outline: 0;
+}
+
+.button-67 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-67:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-67 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* the end of 67 */
+
+/* training */
+.button-68 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 200%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 250px;
+  
+}
+
+.button-68:active,
+.button-68:hover {
+  outline: 0;
+}
+
+.button-68 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-68:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-68 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* end of 68 */
+
+
+
+/* comm */
+.button-69 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 300px;
+}
+
+.button-69:active,
+.button-69:hover {
+  outline: 0;
+}
+
+.button-69 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-69:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-69 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* the end of 69 */
+
+/* Making changes to test my new branch */
