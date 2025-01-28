@@ -127,7 +127,7 @@ transform: all 1s;
    
  
  }
-
+/* The picture */
 .lily{
   width: 202px;
   height: 202px;
@@ -145,8 +145,23 @@ transform: all 1s;
    overflow-wrap: break-word;
    inline-size: 400px;
    margin-left: 550px;
-   margin-top: -200px;
+   margin-top: -50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20pt;
+   
  }
+
+.biotext{
+font-size: 15pt;
+}
+.title{
+  overflow-wrap: break-word;
+  inline-size: 400px;
+  margin-left: -50px;
+  margin-top: -200px;
+ font-weight: bold;
+}
+
 
  /* This controls the hamburger menu */
  .menu{
