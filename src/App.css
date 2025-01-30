@@ -10,21 +10,21 @@ Button{
    /* display: flex;
    flex-direction: column-reverse;
    justify-content: space-between; */
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   width: 150px;
-   gap: 2em;
+     display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+    width: 150px; 
+   gap: 3.5em;
    margin-top: 300px;
-   margin-left: 450px;
+   margin-left: 300px;
    position:static;
    
   
  }
  
-.qlink:hover {
+/* .qlink:hover {
 transform: all 1s;
 
-}
+} */
 
 
 
@@ -115,7 +115,7 @@ transform: all 1s;
  
  /* this is the actual pfp icon circle */
  .pro{
-   border: 3px solid;
+   border: 4px solid #F5DB08;
    width: 200px;
    height: 200px;
    border-radius: 50%;
@@ -127,19 +127,41 @@ transform: all 1s;
    
  
  }
+/* The picture */
+.lily{
+  width: 202px;
+  height: 202px;
+  margin-left: 302px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 35px;
+  
+  
+
+}
 
  /* the text/bio  */
  .bio{
-
    overflow-wrap: break-word;
    inline-size: 400px;
    margin-left: 550px;
-   margin-top: -220px;
-   font-size: 22px;
-   font-weight: bold;
-   color: #000000;
+   margin-top: -50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20pt;
    
  }
+
+.biotext{
+font-size: 15pt;
+}
+.title{
+  overflow-wrap: break-word;
+  inline-size: 400px;
+  margin-left: -50px;
+  margin-top: -200px;
+ font-weight: bold;
+}
+
 
  /* This controls the hamburger menu */
  .menu{
@@ -148,17 +170,52 @@ transform: all 1s;
   bottom: 400px;
   position: fixed;
   background-color: #00adee;
-  border-radius: 10%;
   
 }
 
+.footertext{
+  display: flex;
+  order: 4;
+  gap: 15pt;
+  color: #00adee;
+  position: relative;
+  top: 130px;
+  font-size: 15pt;
+  color: black;
+
+}
+
+
+
 .foot{
   border: solid 1px;
-  height: 100px;
-  background: #000000;
+  height: 120px;
+  background: white;
   color: white;
+
   
 }
+
+a, .social{
+  color: #7c45a5;
+  
+}
+a, .footertext{
+  color: black;
+
+  
+}
+.social{
+display: flex; 
+order: 4;
+gap: 28pt;
+font-size: 15pt;
+position: relative;
+top: 150px;
+margin-left: 20px;
+
+}
+
 /* The logo  */
 .thres{
 width: 750px;
@@ -171,13 +228,480 @@ left: 300px;
 .dropdown-menu{
   color: white;
   border: solid 1px;
-  background-color: rgba(53, 218, 247, 0.5);
-  height: 280px;
+  background-color: gray;
+  height: 180px;
   width: 150px;
   position: fixed;
   bottom: 100px;
   vertical-align: middle;
   line-height: 50px;
-  border-radius: 2%;
- 
+  
 }
+/* all the link tags */
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is the health */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+
+}
+ 
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+ 
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+ 
+.button-64:hover span {
+  background: none;
+}
+ 
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+/* The end of 64 */
+
+/* hope */
+.button-65 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-65:active,
+.button-65:hover {
+  outline: 0;
+}
+
+.button-65 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-65:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-65 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* the end of 65 */
+
+/* loc */
+.button-66 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-66:active,
+.button-66:hover {
+  outline: 0;
+}
+
+.button-66 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-66:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* end of 66 */
+
+
+/* staff */
+.button-67 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-67:active,
+.button-67:hover {
+  outline: 0;
+}
+
+.button-67 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-67:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-67 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* the end of 67 */
+
+/* training */
+.button-68 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 200%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 250px;
+  
+}
+
+.button-68:active,
+.button-68:hover {
+  outline: 0;
+}
+
+.button-68 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-68:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-68 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* end of 68 */
+
+
+
+/* comm */
+.button-69 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 300px;
+}
+
+.button-69:active,
+.button-69:hover {
+  outline: 0;
+}
+
+.button-69 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-69:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-69 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* the end of 69 */
+
+/* Making changes to test my new branch */
+
+
+
+
+/* h1 {
+  position: fixed;
+  right: 500px;
+                                                              /* DexPlays DexTrades StatusDex */
+  
+  } */
+  
+  .loginbox{
+      width: 300px;
+      height: 350px;
+      padding: 10px;
+      border: 3px solid rgb(255, 255, 255);
+      margin: 0;
+      display: flex;
+      
+  }
+  /* This is the editor for the form wrapped in a class 
+  editing one will make changes to both the forms
+  */
+  .form {
+  position: absolute;
+  left: 600px;
+  bottom: 200px;
+  
+  
+  }
+  /* The next 3 classes below make changes to the box color and could add a border and much more if you want */
+  .username {
+      border: solid 3px;
+      background-color: #00adee;
+  }
+  
+  .password {
+      border: solid 3px;
+      margin-top: 15px;
+      background-color: #00adee;
+  }
+  
+  .submit{
+      background-color:#00adee;
+      margin-top: 30px;
+      margin-left: 80px;
+  }
+  
+  /* This selcetor makes the text inside the form bigger */
+  form input {
+      font-size: 17pt;
+      color: white;
+      
+      
+  }
+  
+  
+  .logo{
+      position: absolute;
+      left: 350px;
+      width: 800px;
+      margin-top: 20px;
+      
+      
+  }
+  
+  /* these below are classes and ID's within the button links so you can edit them separately if needed */
+  
+  .signup{
+      /* border: solid 1px; */
+      width: 55px;
+      height: 20px;
+      background-color: white;
+       display: flex; 
+      display: inline;
+  
+  }
+  
+  .rest{
+      /* border: solid 1px; */
+      width: 115px;
+      height: 20px;
+      background-color: white;
+  }
+  
+  /* This term id moves both the terms and contact together */
+  #terms{
+  border: none;
+  margin-left: 450px;
+  margin-top: 120px;
+  text-decoration: underline;
+  background-color: #7c45a5;
+  
+  }
+  
+  #contact{
+  border: none;
+  margin-left: 300px;    
+  text-decoration: underline;
+  background-color: #7c45a5
+  
+  }
+  
+  /* This selector targets both the sign up and restpassword you can change the position of them and they move together */
+  h3{
+      display: inline-block;
+      color: white;
+      position: relative;
+      margin-top: 600px;
+      margin-left: 400px;
+  }
+  
+  /* The a selector controls all the links, i turned off the underline decoration so if you want
+  to use a diff style make a class or ID for your elements you want to add it too */
+   a, .signup.rest{
+      background-color: #00adee;
+      color: white;
+      border: 2px solid white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      text-decoration: none;
+  } 
+
+  .fb{
+    width: 200px;
+    background-color: red;
+  
+  }
+
