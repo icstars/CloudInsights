@@ -5,6 +5,7 @@ import Profile from './Components/Profile'
 import Menu from './components/Menu'
 import Footer from './components/Footer'
 import Lily from './components/Pfp'
+import './App.css'
 
 
 function App() {
