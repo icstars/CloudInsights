@@ -82,8 +82,8 @@ transform: all 1s;
  /* start of the page with the logo, please don't touch this part
  it was hard to center this. unless you can make it better don't touch */
  .head{
- background-color: white;
- border: solid 1px;
+ /* background-color: white;
+ border: solid 1px; */
  width: 800px;
  height: 100px;
  margin-left: 350px;
@@ -102,7 +102,7 @@ transform: all 1s;
    width: 500px;
    height: 50px;
    font-size: 13pt;
-   margin-left: 470px;
+   margin-left: 500px;
    text-align: center;
    border: solid purple;
    border-radius: 40px;
