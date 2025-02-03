@@ -14,7 +14,8 @@ export default function Bot() {
         <div className='cats'><Copilot /></div>
       
         <div className='bottom'><Footer/> </div>
-        <h1>fjdnkjdsn</h1>
+        
+        
         
 
         
