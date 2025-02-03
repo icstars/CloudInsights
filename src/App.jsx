@@ -17,8 +17,6 @@ import './Logged.css'
 import Error from './Pages/Error'
 
 
-
-
 function App() {
 
   return (
@@ -57,19 +55,10 @@ function App() {
     */}
   
   
-    
-    
-
-
    
     </>
   
   )
-// --------------------------------------------------------------------
-
-
- 
-
 
 }
 
