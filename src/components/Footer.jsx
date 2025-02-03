@@ -1,10 +1,12 @@
+import Button from "./Button"
 
 
 function Footer(){
     return(
         <>
         
-            <footer>
+        
+            
 
             <div className="footertext">
             
@@ -18,20 +20,18 @@ function Footer(){
 
                 <div className="social">
 
-                
-
-                <p><i class="bi bi-instagram"></i></p>
-                <button><a href="https://www.facebook.com/ThresholdsChicago" target="_blank" rel="noopener noreferrer"></a><i class="bi bi-facebook" className="fb"></i></button>
-                <p><i class="bi bi-linkedin"></i></p> 
-                <p><i class="bi bi-twitter-x"></i></p>          
+                 <p> <a href="https://www.instagram.com/thresholdschi/?hl=en" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"> </i> </a></p> 
+                <p> <a href="https://www.facebook.com/ThresholdsChicago" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a></p>
+                <p> <a href="https://www.linkedin.com/company/thresholds/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i> </a></p> 
+                <p> <a href="http://https://x.com/ThresholdsChi" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter-x"></i> </a> </p>          
 
                 </div>
 
 
-                <p className="foot"></p>
+                
             
+                <div className="foot"></div>
             
-            </footer>
 
 
         

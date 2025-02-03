@@ -1,8 +1,8 @@
 
 /* the style of all buttons on the page */
-Button{
+/* Button{
   color: rgb(0, 38, 255);
- }
+ } */
  
  /* This is group together within a div, if you edit this it will make 
  changes to all the icons  */
@@ -86,7 +86,7 @@ transform: all 1s;
  border: solid 1px;
  width: 800px;
  height: 100px;
- margin-left: 300px;
+ margin-left: 350px;
  text-align: center;
  vertical-align: middle;
  line-height: 90px;
@@ -102,7 +102,7 @@ transform: all 1s;
    width: 500px;
    height: 50px;
    font-size: 13pt;
-   margin-left: 425px;
+   margin-left: 470px;
    text-align: center;
    border: solid purple;
    border-radius: 40px;
@@ -167,7 +167,7 @@ font-size: 15pt;
  .menu{
   
   font-size: 40pt;
-  bottom: 400px;
+  bottom: 500px;
   position: fixed;
   background-color: #00adee;
   
@@ -179,7 +179,7 @@ font-size: 15pt;
   gap: 15pt;
   color: #00adee;
   position: relative;
-  top: 130px;
+  top: 150px;
   font-size: 15pt;
   color: black;
 
@@ -196,12 +196,11 @@ font-size: 15pt;
   
 }
 
-a, .social{
-  color: #7c45a5;
-  
-}
-a, .footertext{
-  color: black;
+
+ a, .footertext{
+  color: #00516F;
+text-decoration: none;
+font-weight: bold;
 
   
 }
@@ -213,6 +212,9 @@ font-size: 15pt;
 position: relative;
 top: 150px;
 margin-left: 20px;
+font-size: 20pt;
+width: 500px;
+
 
 }
 
@@ -221,27 +223,23 @@ margin-left: 20px;
 width: 750px;
 position: relative;
 bottom: 220px;
-left: 300px;
+left: 350px;
 
 }
 
 .dropdown-menu{
   color: white;
   border: solid 1px;
-  background-color: gray;
-  height: 180px;
-  width: 150px;
+  background-color: #666666;
+  height: 250px;
+  width: 200px;
   position: fixed;
-  bottom: 100px;
+  bottom: 220px;
   vertical-align: middle;
   line-height: 50px;
   
 }
 /* all the link tags */
-a{
-  text-decoration: none;
-}
-
 
 
 
@@ -286,7 +284,7 @@ a{
  
 .button-64 span {
   background-color: rgb(5, 6, 45);
-  padding: 16px 24px;
+  padding: 16px 50px;
   border-radius: 6px;
   width: 100%;
   height: 100%;
@@ -339,7 +337,7 @@ a{
 
 .button-65 span {
   background-color: rgb(5, 6, 45);
-  padding: 16px 24px;
+  padding: 16px 100px;
   border-radius: 6px;
   width: 100%;
   height: 100%;
@@ -359,7 +357,7 @@ a{
 
 /* the end of 65 */
 
-/* loc */
+/* staff */
 .button-66 {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
@@ -391,7 +389,7 @@ a{
 
 .button-66 span {
   background-color: rgb(5, 6, 45);
-  padding: 16px 24px;
+  padding: 16px 40px;
   border-radius: 6px;
   width: 100%;
   height: 100%;
@@ -575,137 +573,13 @@ a{
 
 /* Making changes to test my new branch */
 
+.signbutton{
+ 
+  background-color:transparent;
+  border: red;
+cursor: pointer;
+width: 50px;
 
+}
 
-
-/* h1 {
-  position: fixed;
-  right: 500px;
-                                                              /* DexPlays DexTrades StatusDex */
-  
-  } */
-  
-  .loginbox{
-      width: 300px;
-      height: 350px;
-      padding: 10px;
-      border: 3px solid rgb(255, 255, 255);
-      margin: 0;
-      display: flex;
-      
-  }
-  /* This is the editor for the form wrapped in a class 
-  editing one will make changes to both the forms
-  */
-  .form {
-  position: absolute;
-  left: 600px;
-  bottom: 200px;
-  
-  
-  }
-  /* The next 3 classes below make changes to the box color and could add a border and much more if you want */
-  .username {
-      border: solid 3px;
-      background-color: #00adee;
-  }
-  
-  .password {
-      border: solid 3px;
-      margin-top: 15px;
-      background-color: #00adee;
-  }
-  
-  .submit{
-      background-color:#00adee;
-      margin-top: 30px;
-      margin-left: 80px;
-  }
-  
-  /* This selcetor makes the text inside the form bigger */
-  form input {
-      font-size: 17pt;
-      color: white;
-      
-      
-  }
-  
-  
-  .logo{
-      position: absolute;
-      left: 350px;
-      width: 800px;
-      margin-top: 20px;
-      
-      
-  }
-  
-  /* these below are classes and ID's within the button links so you can edit them separately if needed */
-  
-  .signup{
-      /* border: solid 1px; */
-      width: 55px;
-      height: 20px;
-      background-color: white;
-       display: flex; 
-      display: inline;
-  
-  }
-  
-  .rest{
-      /* border: solid 1px; */
-      width: 115px;
-      height: 20px;
-      background-color: white;
-  }
-  
-  /* This term id moves both the terms and contact together */
-  #terms{
-  border: none;
-  margin-left: 450px;
-  margin-top: 120px;
-  text-decoration: underline;
-  background-color: #7c45a5;
-  
-  }
-  
-  #contact{
-  border: none;
-  margin-left: 300px;    
-  text-decoration: underline;
-  background-color: #7c45a5
-  
-  }
-  
-  /* This selector targets both the sign up and restpassword you can change the position of them and they move together */
-  h3{
-      display: inline-block;
-      color: white;
-      position: relative;
-      margin-top: 600px;
-      margin-left: 400px;
-  }
-  
-  /* The a selector controls all the links, i turned off the underline decoration so if you want
-  to use a diff style make a class or ID for your elements you want to add it too */
-   a, .signup.rest{
-      background-color: #00adee;
-      color: white;
-      border: 2px solid white;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      text-decoration: none;
-  } 
-
-  .fb{
-    width: 200px;
-    background-color: red;
-  
-  }
-
-  .jasmineeeeeeeeee{
-    
-  }
 

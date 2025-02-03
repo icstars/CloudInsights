@@ -1,0 +1,102 @@
+/* h1 {
+  position: fixed;
+  right: 500px;
+                                                              /* DexPlays DexTrades StatusDex */
+
+                                                              .loginbox{
+                                                                width: 300px;
+                                                                height: 350px;
+                                                                padding: 10px;
+                                                                border: 3px solid rgb(255, 255, 255);
+                                                                margin: 0;
+                                                                display: flex;
+                                                            }
+                                                            /* This is the editor for the form wrapped in a class 
+                                                            editing one will make changes to both the forms
+                                                            */
+                                                             .form {
+                                                            position: absolute;
+                                                            left: 600px;
+                                                            bottom: 200px;
+                                                          
+                                                            }
+                                                            /* The next 3 classes below make changes to the box color and could add a border and much more if you want */
+                                                             .username {
+                                                                border: solid 3px;
+                                                                background-color: #00adee;
+                                                            }
+                                                            .password {
+                                                                border: solid 3px;
+                                                                margin-top: 15px;
+                                                                background-color: #00adee;
+                                                            }
+                                                            .submit{
+                                                                background-color:#00adee;
+                                                                margin-top: 30px;
+                                                                margin-left: 80px;
+                                                                cursor: pointer;
+                                                                
+                                                            }
+                                                            /* This selcetor makes the text inside the form bigger */
+                                                             form input {
+                                                                font-size: 17pt;
+                                                                color: white;
+                                                          
+                                                            }
+                                                          
+                                                            .logo{
+                                                                position: absolute;
+                                                                left: 350px;
+                                                                width: 800px;
+                                                                margin-top: 20px;
+                                                          
+                                                            }
+                                                            /* these below are classes and ID's within the button links so you can edit them separately if needed */
+                                                             .signup{
+                                                                /* border: solid 1px; */
+                                                                width: 55px;
+                                                                height: 20px;
+                                                                background-color: white;
+                                                                 display: flex; 
+                                                                display: inline;
+                                                            } 
+                                                             .rest{
+                                                                /* border: solid 1px; */
+                                                                width: 115px;
+                                                                height: 20px;
+                                                                background-color: white;
+                                                            } 
+                                                            /* This term id moves both the terms and contact together */
+                                                             #terms{
+                                                            border: none;
+                                                            margin-left: 450px;
+                                                            margin-top: 120px;
+                                                            text-decoration: underline;
+                                                            background-color: #7c45a5;
+                                                            } 
+                                                             #contact{
+                                                            border: none;
+                                                            margin-left: 300px;    
+                                                            text-decoration: underline;
+                                                            background-color: #7c45a5
+                                                            } 
+                                                            /* This selector targets both the sign up and restpassword you can change the position of them and they move together */
+                                                             h3{
+                                                                display: inline-block;
+                                                                color: white;
+                                                                position: relative;
+                                                                margin-top: 600px;
+                                                                margin-left: 400px;
+                                                            }   
+                                                            /* The a selector controls all the links, i turned off the underline decoration so if you want
+                                                            to use a diff style make a class or ID for your elements you want to add it too */
+                                                              a, .signup.rest{
+                                                                background-color: #00adee;
+                                                                color: white;
+                                                                border: 2px solid white;
+                                                                padding: 10px 20px;
+                                                                text-align: center;
+                                                                text-decoration: none;
+                                                                display: inline-block;
+                                                                text-decoration: none;
+                                                            }

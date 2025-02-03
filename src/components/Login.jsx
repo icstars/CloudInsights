@@ -1,18 +1,24 @@
 import Threshome from './images/ThreshomeLogo.png'
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 function Login (){
+    const navigate = useNavigate();
     return(
         <>
+        
 
         <img src={Threshome} alt="The official Threshome logo" className='logo' />
          <form>
-        <div class = "form"> 
+        <div className = "form"> 
         <input type="text" name="Username" placeholder="  Username" required className="username"/> <br/>
        <input type="password" name=" password"  placeholder="  Password" required className = "password"/> <br/>
-       <input type="submit" name="SignIn" className="submit" value="Sign In"/>
+      <button onClick={() => {navigate('/Home')}} className='signbutton'> 
+        <input type="submit" name="SignIn" className="submit" value="Sign In"/> 
+        </button>
+       
     </div>
  </form>
         

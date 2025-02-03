@@ -6,23 +6,54 @@ import Menu from './components/Menu'
 import Footer from './components/Footer'
 import Lily from './components/Pfp'
 import './App.css'
+import Copilot from './components/Copilot'
+import ProfileCard from './components/Profilecard'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Log from './Pages/log'
+import Home from './Pages/Home'
+import Bot from './Pages/Bot'
+import Login from './components/Login'
+import './Logged.css'
+import Error from './Pages/Error'
+
 
 
 function App() {
 
   return (
     <>
+    
+    {/* <Login /> */}
+    
    
-     {/* <p className='box1'>Box mode l </p>
-    <p className='box2'>Box mode 2 </p>  */}
 
-    <Header />
+         <Router>
+           <Routes>
+            
+             <Route path='/' element={<Log/>} />
+             <Route path='/Home' element={<Home/>} />
+             <Route path='/Chat' element={<Bot/>} />
+             <Route path='*' element={<Error/>} />
+
+
+
+
+
+            
+         </Routes>
+           </Router>
+
+
+
+      {/* <Header />
     <Menu />
     <Search />
     <Profile />
     <Lily />
     <Button />
-    <Footer />
+    <Footer />  
+     <Copilot /> 
+    */}
   
   
     
@@ -30,18 +61,13 @@ function App() {
 
 
    
-  </>
+    </>
+  
   )
 // --------------------------------------------------------------------
 
 
-  function Box(){
-    return(
-      <div>
-        <p>Number 2</p>
-      </div>
-    )
-  }
+ 
 
 
 }

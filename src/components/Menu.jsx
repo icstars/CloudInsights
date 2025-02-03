@@ -6,7 +6,7 @@ function Menu() {
   const options = [
     { value: 'option1', label: 'Personal Information' },
     { value: 'option2', label: 'Members' },
-    { value: 'option3', label: 'Settings' }
+    { value: 'option3', label: <a href="https://www.youtube.com/watch?v=8U43SE9VjJA"> Settings</a> }
   ];
 
   const toggleDropdown = () => {
