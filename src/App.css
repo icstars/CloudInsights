@@ -108,14 +108,14 @@ transform: all 1s;
    border-radius: 40px;
    position: relative;
    bottom: 200px;
-   border-color: #00adee;
+   border-color: #009BDE
  
  
   }
  
  /* this is the actual pfp icon circle */
  .pro{
-   border: 4px solid #F5DB08;
+   border: 4px solid yellow;
    width: 200px;
    height: 200px;
    border-radius: 50%;
@@ -169,7 +169,8 @@ font-size: 15pt;
   font-size: 40pt;
   bottom: 500px;
   position: fixed;
-  background-color: #00adee;
+  background-color: #009BDE;
+  border-radius: 14px;
   
 }
 
@@ -177,7 +178,7 @@ font-size: 15pt;
   display: flex;
   order: 4;
   gap: 15pt;
-  color: #00adee;
+  color: #009BDE;
   position: relative;
   top: 150px;
   font-size: 15pt;
@@ -190,8 +191,8 @@ font-size: 15pt;
 .foot{
   border: solid 1px;
   height: 120px;
-  background: white;
-  color: white;
+  background: #EBEDE8;
+  color: #EBEDE8;
 
   
 }
@@ -228,11 +229,11 @@ left: 350px;
 }
 
 .dropdown-menu{
-  color: white;
+  color: #EBEDE8;
   border: solid 1px;
   background-color: #666666;
-  height: 250px;
-  width: 200px;
+  height: 180px;
+  width: 150px;
   position: fixed;
   bottom: 220px;
   vertical-align: middle;
@@ -573,13 +574,27 @@ left: 350px;
 
 /* Making changes to test my new branch */
 
-.signbutton{
+.Chatbot {
  
-  background-color:transparent;
-  border: red;
-cursor: pointer;
-width: 50px;
+    width: 360px;
+    height: 400px;
+    padding: 20px;
+    background-color: #EBEDE8;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 460px;
+  }
+  
+.chatlogo {
 
+  width: 500px;
+  position: absolute;
+  margin-left: 410px;
 }
 
+.fb{
 
+border: .2px solid transparent;
+}
