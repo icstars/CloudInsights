@@ -7,11 +7,11 @@ return (
     <>
     
     <Menu />
-    <Footer />
+    {/* <Footer /> */}
 
     <img src={Threshome} alt="The official Threshome logo" className='chatlogo' />
       <div className="Chatbot">
-        BOXXXXXXXXXXX
+        
       </div>
     
     </>

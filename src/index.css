@@ -77,9 +77,14 @@ button:focus-visible {
   ;
 } */
 
-body{
-  /* background-color: #7c45a5; */
+
+body {
   margin: 0;
   background-image: url(pageback.jpg);
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat; 
 }
 

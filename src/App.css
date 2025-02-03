@@ -574,7 +574,7 @@ left: 350px;
 
 /* Making changes to test my new branch */
 
-.Chatbot {
+/* .Chatbot {
  
     width: 360px;
     height: 400px;
@@ -583,18 +583,45 @@ left: 350px;
     border-radius: 16px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     position: absolute;
-    margin-top: 200px;
-    margin-left: 460px;
-  }
+    margin-top: 500px;
+    margin-left: 60px;
+  } */
   
 .chatlogo {
 
   width: 500px;
-  position: absolute;
-  margin-left: 410px;
+  position: relative;
+  margin-left: 490px;
+
 }
 
 .fb{
 
 border: .2px solid transparent;
+}
+
+.cats{
+
+  
+ position: relative;
+ left: 460px;
+ margin-top: 100px;
+ box-shadow: rgba(0, 0, 0, 0.484);
+ border: solid 4px;
+ width: 564px;
+ height: 319px;
+}
+
+.signbutton{
+ 
+  background-color:transparent;
+  border: red;
+cursor: pointer;
+width: 50px;
+ 
+}
+
+.bottom{
+  position: relative;
+  margin-top: 75px;
 }

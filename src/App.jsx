@@ -18,6 +18,7 @@ import Error from './Pages/Error'
 
 
 
+
 function App() {
 
   return (
@@ -34,7 +35,7 @@ function App() {
              <Route path='/Home' element={<Home/>} />
              <Route path='/Chat' element={<Bot/>} />
              <Route path='*' element={<Error/>} />
-
+              
 
 
 
