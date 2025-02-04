@@ -15,6 +15,9 @@ import Bot from './Pages/Bot'
 import Login from './components/Login'
 import './Logged.css'
 import Error from './Pages/Error'
+import Personal from './Pages/Personal'
+import Settings from './Pages/Settings'
+import Members from './Pages/Members'
 
 
 
@@ -34,6 +37,13 @@ function App() {
              <Route path='/' element={<Log/>} />
              <Route path='/Home' element={<Home/>} />
              <Route path='/Chat' element={<Bot/>} />
+             <Route path='/Personal' element={<Personal/>} />
+             <Route path='/Settings' element={<Settings/>} />
+             <Route path='/Members' element={<Members/>} />
+             
+             
+             
+             
              <Route path='*' element={<Error/>} />
               
 
