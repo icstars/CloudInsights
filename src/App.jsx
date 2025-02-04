@@ -18,6 +18,7 @@ import Error from './Pages/Error'
 import Personal from './Pages/Personal'
 import Settings from './Pages/Settings'
 import Members from './Pages/Members'
+import Signup from './Pages/Signup'
 
 
 
@@ -40,6 +41,7 @@ function App() {
              <Route path='/Personal' element={<Personal/>} />
              <Route path='/Settings' element={<Settings/>} />
              <Route path='/Members' element={<Members/>} />
+             <Route path='/Signup' element={<Signup/>} />
              
              
              

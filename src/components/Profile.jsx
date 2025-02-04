@@ -1,5 +1,7 @@
-import Pfp from "./images/Lily.png"
 
+import FrontLillyMoore from './images/FrontLillyMoore.jpg'
+import Pfp from "./images/Lily.png"
+import BackLillyMoore from './images/BackLillyMoore.png'
 
 
 function Profile(){
@@ -23,12 +25,10 @@ Monday - Friday: 9:00 AM - 6:00 PM</p>  */}
 <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
-    <img src={Pfp} alt="Lily" className="lily" />
+    <img src={FrontLillyMoore} className='lily'/>
     </div>
     <div className="flip-card-back">
-      <h1>John Doe</h1>
-      <p>Architect & Engineer</p>
-      <p>We love that guy</p>
+      <img src={BackLillyMoore} className='lily' />
     </div>
   </div>
 </div>

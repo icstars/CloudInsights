@@ -129,12 +129,13 @@ transform: all 1s;
  }
 /* The picture */
 .lily{
-  width: 300px;
-  height: 300px;
+  width: 800px;
+  height: 450px;
   /* margin-left: 302px;
   border-radius: 50%;
   position: absolute;
   margin-top: 35px; */
+  
   
   
 
@@ -229,18 +230,19 @@ left: 350px;
 }
 
 .dropdown-menu{
-  color: #EBEDE8;
-  border: solid 1px;
-  background-color: #666666;
-  height: 200px;
-  width: 180px;
-  position: fixed;
-  bottom: 220px;
-  vertical-align: middle;
-  line-height: 50px;
-  font-size: 20pt;
+  margin: 8px;
+   color: #ebede8;
+   border: solid 4px;
+   border-radius: 10px;
+   background-color: hsla(196, 100%, 22%, 0.459);
+   height: 450px;
+   width: 200px;
+   position: fixed;
+   bottom: 20px;
+   vertical-align: middle;
+   line-height: 50px;
   
-}
+ }
 /* all the link tags */
 
 
@@ -626,3 +628,15 @@ width: 50px;
   position: relative;
   margin-top: 75px;
 }
+/* This one moves the whole box with the sign in form */
+.Signupform{
+  border: solid 1px;
+  background-color: rgba(233, 229, 229, 0.989);
+  width: 450px;
+  position: static;
+  margin-left: 540px;
+  margin-top: -150px;
+  height: 450px;
+  
+}
+
