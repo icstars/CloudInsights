@@ -1,17 +1,9 @@
-function Search(){
-    return(
-        <>
-        <div>
+import React from 'react'
 
-        <input type="search" placeholder="Start searching..." className="co"/>
-                
-            
-
-
-
-
-        </div>
-        </>
-    )
+export default function Search() {
+  return (
+   <>
+   <input type="search" className='co' placeholder='Start Searching....' />
+   </>
+  )
 }
-export default Search

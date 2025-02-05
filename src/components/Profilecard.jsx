@@ -1,14 +1,7 @@
-export default function ProfileCard({ name, title, image, bio }) {
-    return (
-      <>
-      <div>
-       
+import React from 'react'
 
-
-
-       
-      </div>
-      </>
-    );
-  }
-  
+export default function Profilecard() {
+  return (
+    <div>Profilecard</div>
+  )
+}

@@ -190,9 +190,9 @@ font-size: 15pt;
 
 
 .foot{
-  border: solid 1px;
-  height: 120px;
-  background: hsla(196, 100%, 22%, 0.541) ;
+  border: solid 1px transparent;
+  height: 150px;
+  background: hsla(196, 100%, 22%, 0.21) ;
   color: #EBEDE8;
 
   
